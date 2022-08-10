@@ -9,10 +9,12 @@
 
 *{
     margin: 0;
+    margin: 0;
     padding: 0;
 }
 html, body{
     min-height: 100vh;
+    font-family: var(--font3);
 }
 
 header{
@@ -23,10 +25,9 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 6.1em;
+    font-size: 10vw;
     font-family: var(--font1);
-    font-weight: 900;
-    letter-spacing: .1rem;
+    font-weight: bolder;
 }
 header > p{
     padding-bottom: 50px;
@@ -61,7 +62,7 @@ section.image{
 
 section.image > p{
     background-color: rgba(0, 0, 0, 0.247);
-    width: 400px;
+    display: inline-block;
     padding: 10px;
 }
 
